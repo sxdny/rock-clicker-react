@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.stone {
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+
+    transition: 0.25s ease-in;
+}
+
+h1 {
+    color: white;
+}
+
+.stone:active {
+    scale: 0.9;
+}
+
+.stone:hover {
+    filter: brightness(1.1);
+    filter: drop-shadow(0 0 0.35rem white);
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    text-align: center;
+}
+
+.app > main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
